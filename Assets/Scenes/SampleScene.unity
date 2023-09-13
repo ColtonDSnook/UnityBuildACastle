@@ -151,11 +151,11 @@ Transform:
   m_GameObject: {fileID: 37485536}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15, y: 25, z: 10}
-  m_LocalScale: {x: 12, y: 2, z: 14}
+  m_LocalPosition: {x: 0, y: 0.23333335, z: 0}
+  m_LocalScale: {x: 1.2, y: 0.13333334, z: 1.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1120323276}
+  m_Father: {fileID: 955373861}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &37485538
 BoxCollider:
@@ -1597,11 +1597,11 @@ Transform:
   m_GameObject: {fileID: 474388221}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15, y: 21, z: 10}
-  m_LocalScale: {x: 12, y: 2, z: 14}
+  m_LocalPosition: {x: 0, y: -0.033333335, z: 0}
+  m_LocalScale: {x: 1.2, y: 0.13333334, z: 1.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1120323276}
+  m_Father: {fileID: 955373861}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &474388223
 BoxCollider:
@@ -2335,7 +2335,10 @@ Transform:
   m_LocalPosition: {x: -15, y: 21.5, z: 10}
   m_LocalScale: {x: 10, y: 15, z: 10}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 37485537}
+  - {fileID: 474388222}
+  - {fileID: 1959266704}
   m_Father: {fileID: 1120323276}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &955373862
@@ -2753,9 +2756,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1959266704}
-  - {fileID: 37485537}
-  - {fileID: 474388222}
   - {fileID: 955373861}
   - {fileID: 184520544}
   m_Father: {fileID: 1239736957}
@@ -3995,11 +3995,11 @@ Transform:
   m_GameObject: {fileID: 1959266703}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15, y: 29, z: 10}
-  m_LocalScale: {x: 12, y: 2, z: 14}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1.2, y: 0.13333334, z: 1.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1120323276}
+  m_Father: {fileID: 955373861}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1959266705
 BoxCollider:
